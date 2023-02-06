@@ -1,0 +1,9 @@
+$('.show-more').click(function(){
+    $(".cards-toggle").toggleClass('cards-toggled');
+  });  
+$('.news-wrapper-btn').click(function(){
+    $(".news-toggle").toggleClass('news-toggled');
+  });  
+$('.publics-wrapper-btn').click(function(){
+    $(".publics-toggle").toggleClass('publics-toggled');
+  });  
